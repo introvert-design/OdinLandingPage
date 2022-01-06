@@ -1,0 +1,156 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 20%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.hero .body, 
+.navbar a,
+.call-to-action .content, 
+button {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding-bottom: 96px;
+}
+
+.hero .content {
+    flex: 1;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    font-weight: 700;
+    padding: 8px 36px;
+    border-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero img {
+    flex: 1;
+}
+
+.info {
+    margin-top: 56px;
+    margin-bottom: 96px;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.info .cards {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.info img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info .body {
+    width: 200px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    margin: 0 auto;
+    padding: 10% 25%;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.quote p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 10% 20%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    gap: 24px;
+}
+
+.call-to-action button {
+    border-color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.call-to-action .title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.call-to-action p {
+    margin: 0;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    padding: 24px;
+}
